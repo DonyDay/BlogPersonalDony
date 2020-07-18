@@ -64,18 +64,23 @@ figure{
 }
 
 .header .header-icon-container .icons{
-  width: 300px;
+  width: 100px;
   height: auto;
   display: flex;
   justify-items: flex-end;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   justify-self: end;
   margin-right: 50px;
 }
 
 .header .icons span{
   color: var(--gris-color);
+}
+
+.features-icon{
+  color:var(--gris-color) ;
+  font-size: 37px;
 }
 
 .menu{
